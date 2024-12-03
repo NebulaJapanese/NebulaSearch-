@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nebula Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Nebula Search Bar -->
+  <div id="search-container">
+    <div id="logo">
+      <h1>Nebula Search</h1>
+    </div>
+    <div id="search-box">
+      <input type="text" id="search-query" placeholder="Search the universe..." />
+      <button onclick="performSearch()">Search</button>
+    </div>
+  </div>
+
+  <!-- Search Results Section -->
+  <div id="search-results" class="hidden">
+    <h2>Search Results</h2>
+    <ul id="results-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
