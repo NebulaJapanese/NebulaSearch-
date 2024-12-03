@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: url('https://source.unsplash.com/1600x900/?space,stars') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+#search-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#logo h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#search-box {
+  display: flex;
+  justify-content: center;
+}
+
+#search-query {
+  padding: 12px;
+  width: 300px;
+  font-size: 16px;
+  border-radius: 25px;
+  border: 2px solid #1E90FF;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#search-box button {
+  padding: 12px;
+  margin-left: 10px;
+  font-size: 16px;
+  background-color: #1E90FF;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#search-box button:hover {
+  background-color: #4682B4;
+}
+
+#search-results {
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#search-results h2 {
+  margin-top: 0;
+}
+
+#results-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#results-list li {
+  background-color: #222;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#results-list li:hover {
+  background-color: #333;
+}
+
+.hidden {
+  display: none;
+}
