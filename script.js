@@ -1,5 +1,5 @@
-const apiKey = "YOUR_GOOGLE_API_KEY";  // Replace with your Google API key
-const cx = "YOUR_CUSTOM_SEARCH_ENGINE_ID";  // Replace with your CSE ID
+const apiKey = "AIzaSyCtLCE5YqGhDnt3q9dVg38QK8r1IQLdEF8";  // Replace with your Google API key
+const cx = "AIzaSyCtLCE5YqGhDnt3q9dVg38QK8r1IQLdEF8";  // Replace with your CSE ID
 
 // Perform the search when the user clicks the "Search" button
 function performSearch() {
